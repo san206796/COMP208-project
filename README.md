@@ -22,18 +22,18 @@ An Android application that displays bus routes in Liverpool with estimated trav
 3.Ensure that you have Google Play Services and Google Maps SDK enabled in your Google Cloud Console.
 
 4.Add your Google Maps API Key to the AndroidManifest.xml:
-```bash
-xml
-<meta-data
-  android:name="com.google.android.geo.API_KEY"
-  android:value="YOUR_API_KEY_HERE"/>
+   ```bash
+   xml
+   <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="YOUR_API_KEY_HERE"/>
 
 5.Make sure the following permissions are set in AndroidManifest.xml:
-```bash
-xml
-
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+   ```bash
+   xml
+   
+   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
 6.Run the app on:
 Android Emulator (with Google Play Services enabled) Or a Physical Android 
