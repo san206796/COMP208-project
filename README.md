@@ -29,7 +29,7 @@ xml
   android:value="YOUR_API_KEY_HERE"/>
 
 5.Make sure the following permissions are set in AndroidManifest.xml:
-
+```bash
 xml
 
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
