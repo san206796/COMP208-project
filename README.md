@@ -1,5 +1,5 @@
 # COMP208-project
-# MerBusApp
+## MerBusApp
 
 An Android application that displays bus routes in Liverpool with estimated travel durations using Google Maps and integrates location services for a better user experience.
 
@@ -14,46 +14,63 @@ An Android application that displays bus routes in Liverpool with estimated trav
 ## Installation
 
 1. Clone the repo:
+
    ```bash
    git clone https://github.com/san206796/COMP208-project.git
+Open the project in Android Studio.
 
-2.Open the project in Android Studio.
+Ensure that you have Google Play Services and Google Maps SDK enabled in your Google Cloud Console.
 
-3.Ensure that you have Google Play Services and Google Maps SDK enabled in your Google Cloud Console.
+Add your Google Maps API Key to the AndroidManifest.xml:
 
-4.Add your Google Maps API Key to the AndroidManifest.xml:
-      ```bash
-      xml
-      <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="YOUR_API_KEY_HERE"/>
+xml
+Copy
+Edit
+<meta-data
+    android:name="com.google.android.geo.API_KEY"
+    android:value="YOUR_API_KEY_HERE"/>
+Make sure the following permissions are set in AndroidManifest.xml:
 
-5.Make sure the following permissions are set in AndroidManifest.xml:
-   ```bash
-   xml
-   
-   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+xml
+Copy
+Edit
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+Run the app on:
 
-6.Run the app on:
-Android Emulator (with Google Play Services enabled) Or a Physical Android 
-Device
+Android Emulator (with Google Play Services enabled), or
 
-7.Requirements
+A physical Android device
+
+Requirements
 Android Studio (Hedgehog or newer recommended)
+
 Google Maps SDK for Android (enabled via Google Cloud Console)
+
 Google API Key for Maps access
+
 Ensure that location permissions are granted on the device or emulator.
 
-8.Usage
+Usage
 Launch the app.
+
 Select a bus route from the dropdown spinner (e.g., "52A", "7").
+
 The map will update with markers and a polyline representing the bus route.
+
 The estimated travel time will be displayed below the spinner.
 
-9.Contributors
-Shivansh 
+Contributors
+Shivansh
+
 Raid
+
 Alankrit
+
 Sanjose
+
 Amir
+
+yaml
+Copy
+Edit
