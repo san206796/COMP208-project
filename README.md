@@ -26,14 +26,15 @@ An Android application that displays bus routes in Liverpool with estimated trav
  xml
   <meta-data
     android:name="com.google.android.geo.API_KEY"
-    android:value="YOUR_API_KEY_HERE"/>///
+    android:value="YOUR_API_KEY_HERE"/>
 ```
 
 5.Make sure the following permissions are set in AndroidManifest.xml:
-
-///  xml
+```bash
+ xml
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>///
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+```
 
 6.Run the app on:
 Android Emulator (with Google Play Services enabled), or A physical Android device
