@@ -43,26 +43,25 @@ An Android application that displays bus routes in Liverpool with estimated trav
 ```
 
 6.Run the app on:
-Android Emulator (with Google Play Services enabled), 
-or A physical Android device
+Android Emulator (with Google Play Services enabled), or A physical Android device
 
 7.Requirements:
-Android Studio (Hedgehog or newer recommended)
-Google Maps SDK for Android (enabled via Google Cloud Console)
-Google API Key for Maps access
-Ensure that location permissions are granted on the device or emulator.
+-Android Studio (Hedgehog or newer recommended)
+-Google Maps SDK for Android (enabled via Google Cloud Console)
+-Google API Key for Maps access
+-Ensure that location permissions are granted on the device or emulator.
 
 8.Usage:
-Launch the app.
-Select a bus route from the dropdown spinner (e.g., "52A", "7").
-The map will update with markers and a polyline representing the bus route.
-The estimated travel time will be displayed below the spinner.
+-Launch the app.
+-Select a bus route from the dropdown spinner (e.g., "52A", "7").
+-The map will update with markers and a polyline representing the bus route.
+-The estimated travel time will be displayed below the spinner.
 
 9.Contributors:
-Shivansh
-Raid
-Alankrit
-Sanjose
-Amir
+-Shivansh
+-Raid
+-Alankrit
+-Sanjose
+-Amir
 
 
