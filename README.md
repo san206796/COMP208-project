@@ -43,7 +43,8 @@ An Android application that displays bus routes in Liverpool with estimated trav
 ```
 
 6.Run the app on:
-Android Emulator (with Google Play Services enabled), or A physical Android device
+Android Emulator (with Google Play Services enabled), 
+or A physical Android device
 
 7.Requirements:
 Android Studio (Hedgehog or newer recommended)
