@@ -22,6 +22,11 @@ An Android application that displays bus routes in Liverpool with estimated trav
 
 3.Ensure that you have Google Play Services and Google Maps SDK enabled in your Google Cloud Console.
 
+4.Google api key:
+```bash
+   AIzaSyC1GIXYEn6xGs59vGxvz94lqIcLDfLpkPQ
+```
+
 4.Add your Google Maps API Key to the AndroidManifest.xml:
  ```bash
  xml
