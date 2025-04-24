@@ -14,8 +14,9 @@ An Android application that displays bus routes in Liverpool with estimated trav
 ## Installation
 
 1. Clone the repo:
-
+```bash
    git clone https://github.com/san206796/COMP208-project.git
+```
 
 2.Open the project in Android Studio.
 
