@@ -15,25 +15,25 @@ An Android application that displays bus routes in Liverpool with estimated trav
 
 1. Clone the repo:
 
-   ```bash
    git clone https://github.com/san206796/COMP208-project.git
+
 2.Open the project in Android Studio.
 
 3.Ensure that you have Google Play Services and Google Maps SDK enabled in your Google Cloud Console.
 
 4.Add your Google Maps API Key to the AndroidManifest.xml:
-  ```bash
+ 
   xml
-
   <meta-data
     android:name="com.google.android.geo.API_KEY"
     android:value="YOUR_API_KEY_HERE"/>
-5.Make sure the following permissions are set in AndroidManifest.xml:
-  ```bash
-  xml
 
+5.Make sure the following permissions are set in AndroidManifest.xml:
+
+  xml
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
 6.Run the app on:
 Android Emulator (with Google Play Services enabled), or A physical Android device
 
